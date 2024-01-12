@@ -1,5 +1,5 @@
 {
-  "name": "keep-alive",
+  "name": "@ecom/keep-alive",
   "version": "1.0.0",
   "description": "react keep-alive",
   "main": "index.js",
