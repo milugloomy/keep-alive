@@ -1,9 +1,11 @@
 {
   "name": "@ecom/keep-alive",
-  "version": "1.0.2",
+  "version": "1.0.8",
   "description": "react keep-alive",
-  "main": "src/index.ts",
+  "main": "dist/main.js",
   "module": "dist/main.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode=production --node-env=production",
@@ -14,14 +16,13 @@
   "author": "qijunhao",
   "license": "ISC",
   "dependencies": {
-    "react": "^17.0.2"
+    "react": "~17.0.2"
   },
   "peerDependencies": {
     "react": ">= 17.0.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.47",
-    "@webpack-cli/generators": "^3.0.7",
     "ts-loader": "^9.5.1",
     "typescript": "^5.3.3",
     "webpack": "^5.89.0",
